@@ -1,6 +1,7 @@
 language: minimal
 arch:
  - amd64
+ - arm64
 env:
   global:
   - DOCKER_NAME_TAG=ubuntu:19.10  # Use docker only to pin to a specific version of an OS
